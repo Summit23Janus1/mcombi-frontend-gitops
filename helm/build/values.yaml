@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: mcombi
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/mcombi-frontend
+  org: Summit23Janus1
+  name: mcombi-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: mcombi/poi-map-app
+  tag: latest
